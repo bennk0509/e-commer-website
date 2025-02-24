@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "image": "https://via.placeholder.com/100",
+      "feedback": "Amazing service! Highly recommended.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "image": "https://via.placeholder.com/100",
+      "feedback": "The trainers are very professional and friendly!",
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "image": "https://via.placeholder.com/100",
+      "feedback": "Great gym environment. Will come back for sure!",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "image": "https://via.placeholder.com/100",
+      "feedback": "The trainers are very professional and friendly!",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "image": "https://via.placeholder.com/100",
+      "feedback": "The trainers are very professional and friendly!",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "image": "https://via.placeholder.com/100",
+      "feedback": "The trainers are very professional and friendly!",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "image": "https://via.placeholder.com/100",
+      "feedback": "The trainers are very professional and friendly!",
+      "rating": 4
+    }
+  ]
+  
