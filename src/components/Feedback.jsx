@@ -18,7 +18,7 @@ const Feedback = () =>{
 
     return (
         <div className="p-10">
-            <h2 className="text-3xl text-center font-bold mb-8">What Our Customers Say</h2>
+            <h2 className="text-3xl text-center mb-8">What Our Customers Say</h2>
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 spaceBetween={30}
