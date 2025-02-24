@@ -8,7 +8,7 @@ const Introduction = () => {
     return (
         <div className="flex flex-col items-center justify-center p-10">
             <h1 className="pb-10 text-5xl">Our Services</h1>
-            <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-[auto_auto_30px_auto] md:grid-rows-3 gap-4 max-w-6xl mx-auto p-4 md:h-screen">
+            <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-[auto_auto_30px_auto] md:grid-rows-3 gap-4 max-w-6xl mx-auto p-4 pl-0 pr-0 md:h-screen">
                 <div className="relative h-[350px] md:h-auto col-span-2 row-span-1 md:row-span-3 text-white flex items-center justify-center text-xl overflow-hidden group">
                     <img src={bento4} alt="Massage Therapy" className="w-full h-full object-cover transform group-hover:scale-110 group-active:scale-110 transition-transform duration-500 ease-in-out" />
                     <div className="absolute left-5 bottom-5 flex flex-col gap-2">
