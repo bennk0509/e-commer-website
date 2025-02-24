@@ -25,7 +25,7 @@ const Hero  = () => {
         //     </div>
         // </div>
         <div className="relative">
-            <img src={`${heroBackground}`} className="w-screen">
+            <img src={`${heroBackground}`} className="w-screen pt-10 md:pt-0">
             </img>
             <div className="flex flex-col max-w-[450px] w-full justify-center items-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 gap-3 md:left-2/5 md:top-1/3 md:items-start">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-none" >HT Massage Theraphy</h1>
