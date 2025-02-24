@@ -1,4 +1,4 @@
-import bento1 from "/bento-1.jpg"
+import bento from "/bento.jpg"
 import bento2 from "/bento-2.jpg"
 import bento3 from "/bento-3.jpg"
 import bento4 from "/bento-4.jpg"
@@ -70,25 +70,27 @@ const Introduction = () => {
         //     </div>
         // </div>
 
-        <div className="grid grid-cols-2 grid-rows-4 gap-4 max-w-6xl mx-auto p-4">
-            <div className="min-h-40 col-span-2 bg-blue-500 p-6 text-white flex items-center justify-center text-xl">
-                A
+        <div className="grid grid-cols-2 grid-rows-[auto-auto-150px-auto] gap-4 max-w-6xl mx-auto p-10">
+            <div className="h-[500px] col-span-2 text-white flex items-center justify-center text-xl">
+                <img src={`${bento4}`} alt="Nutrition Plans" className="w-full h-full object-cover" />
             </div>
 
-            <div className="bg-green-500 p-6 text-white flex items-center justify-center text-xl">
-                B
+            <a className="bg-[#FFC107] p-6 text-[#1e1e1e] flex flex-col gap-4 text-pretty">
+                <h3 className="text-3xl">Discount <span className="text-amber-700">10%</span> FOR THE FIRST TIME ON MASSAGE AND GYM</h3>
+                {/* <p className="font-[inter] font-bold">Valid from January 2025 until April 30 2025</p> */}
+                <a href="">Find out more</a>
+            </a>
+
+            <div className=" row-span-2 col-start-1 col-end-1 text-white flex items-center justify-center text-xl">
+                <img src={`${bento}`} alt="Massage Therapy" className="w-full h-full object-cover" />
             </div>
 
-            <div className="row-span-2 col-start-1 col-end-1 bg-red-500 p-6 text-white flex items-center justify-center text-xl">
-                C
+            <div className="col-start-2 row-span-2 row-start-2 text-white flex items-center justify-center text-xl">
+                <img src={`${bento3}`} alt="Massage Therapy" className="w-full h-full object-cover" />
             </div>
 
-            <div className="col-start-2 row-span-2 row-start-2 bg-yellow-500 p-6 text-white flex items-center justify-center text-xl">
-                D
-            </div>
-
-            <div className="bg-purple-500 p-6 text-white flex items-center justify-center text-xl">
-                F
+            <div className=" text-white flex items-center justify-center text-xl">
+                <img src={`${bento2}`} alt="Personal Training" className="w-full h-full object-cover" />
             </div>
         </div>
 
