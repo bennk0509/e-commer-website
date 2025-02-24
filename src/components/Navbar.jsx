@@ -5,7 +5,7 @@ import { TfiAlignJustify, TfiClose } from "react-icons/tfi";
 const Navbar = () => {
     const [menuOption, setMenuOption] = useState(false);
     return(
-        <div>
+        <div className="fixed top-0 left-0 w-full shadow-md z-50 bg-[#1E1E1E]">
             <div className="flex flex-row justify-between items-center p-4 ml-4 mr-4">
                 <h2 className="tracking-wide text-2xl font-medium">HT MASSAGE THERAPHY</h2>
                 <ul className="md:flex flex-row gap-8 items-center hidden">
